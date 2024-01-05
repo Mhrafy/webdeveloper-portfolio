@@ -81,7 +81,11 @@ nav a {
     margin-bottom: 20px;
 }
 /* main section style */
+ main {
+    max-width: 1140px;
+    margin: 0 auto;
 
+ }
 
 /* about section style */
 .about {
@@ -109,4 +113,17 @@ font-size: 18px;
 ;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
+}
+.about-info-container {
+     display: flex;
+     justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+#what-i-do-des {
+
+    padding: 30px 150px;
 }
